@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width:400px;
+  height:300px;
+  padding:10px;
+}
