@@ -1,5 +1,5 @@
  {
- "manifest_version": 2,
+  "manifest_version": 2,
 
   "name": "Hatch",
   "description": "Friendly pet accompanying a to-do list",
@@ -10,7 +10,7 @@
    "default_popup": "popup.html"
   },
   "permissions": [
-   "activeTab"
+   "activeTab",
    "storage"
    ]
 }
