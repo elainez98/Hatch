@@ -3,14 +3,16 @@
   "description": "Print inside console when clicked",
   "version": "2.0",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["js/background.js"],
     "persistent": false
   },
   "browser_action": {
-    "default_title": "Print inside console when clicked"
+    "default_title": "Print inside console when clicked",
+    "default_popup": "popup.html"
   },
   "manifest_version": 2
 }
