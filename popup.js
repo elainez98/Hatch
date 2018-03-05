@@ -8,6 +8,17 @@ $(function(){
 			$('#new-task')
 				.val('');
 		})
+
+	$('#new-task')
+		.keydown(function(e){
+			if (e.keyCode==13){
+				console.log('button was clicked');
+				var text= $('#new-task').val();
+				addTask(text);
+				$('#new-task')
+					.val('');
+			}
+		})
 	function addTask(task){
 		$('ul')
 			.append('<li>'+ task+ '</li>');
