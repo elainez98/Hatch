@@ -4,7 +4,12 @@ $(function(){
 		.click(function(){
 			console.log('button was clicked');
 			var text= $('#new-task').val();
-			$('ul')
-				.append(text+'\n');
+			addTask(text);
+			$('#new-task')
+				.val('');
 		})
+	function addTask(task){
+		$('ul')
+			.append('<li>'+ task+ '</li>');
+	}
 })
