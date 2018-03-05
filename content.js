@@ -1,3 +1,1 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
-    alert('HELLOOOOO WORLD!!');
-});
+console.log("I'm content.js, man");
