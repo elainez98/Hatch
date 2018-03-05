@@ -3,5 +3,7 @@ $(function(){
 	$('#submit')
 		.click(function(){
 			console.log('button was clicked');
+			$('ul')
+				.append('you clicked? \n');
 		})
 })
