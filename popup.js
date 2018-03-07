@@ -20,7 +20,9 @@ $(function(){
 			}
 		})
 	function addTask(task){
-		$('ul')
-			.append('<li>'+ task+ '</li>');
+		if (task!=''){
+			$('ul')
+				.append('<li>'+ task+ '</li>');
+		}
 	}
 })
